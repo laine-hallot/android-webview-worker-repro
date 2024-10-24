@@ -1,5 +1,7 @@
 ## Info
 
+This is all related to this Chromium issue ticket: https://issues.chromium.org/issues/374241716
+
 This repo is meant to demonstrate an issue where trying to create a worker from with in another worker seems to fail on versions of the Android WebView based on Chromium versions past 130.0.6723.58
 
 The code here is based on the MDN web worker example, but with an extra worker that the main worker creates https://github.com/mdn/dom-examples/tree/main/web-workers/simple-web-worker
